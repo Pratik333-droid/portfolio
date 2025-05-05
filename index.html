@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <title>Pratik Dahal</title>
+    <!-- Tailwind CDN for simplicity -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Optional: Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-50 text-gray-900 font-sans">
+    <!-- Navbar -->
+    <nav
+      class="fixed top-0 w-full bg-gray-300 shadow-lg z-50 px-4 md:px-8 py-3 flex justify-between items-center transition-colors duration-300"
+    >
+      <h1 class="text-xl font-bold hover:text-red-900">
+        <a href="#">Pratik Dahal</a>
+      </h1>
+      <ul class="flex space-x-6 font-semibold">
+        <li><a href="#about" class="hover:text-red-900">About</a></li>
+        <li><a href="#projects" class="hover:text-red-900">Projects</a></li>
+        <li><a href="#contact" class="hover:text-red-900">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      class="pt-20 pb-12 bg-gradient-to-r from-gray-700 via-gray-300 to-gray-700 min-h-screen flex items-center justify-center"
+      id="home"
+    >
+      <div class="text-center max-w-2xl px-4">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">Hi, I'm Pratik</h1>
+        <p class="text-lg mb-6">
+          An enthusiastic software engineer with over a year of experience in
+          building web applications.
+        </p>
+        <a
+          href="#projects"
+          class="bg-gray-200 hover:bg-gray-400 text-black font-semibold py-3 px-6 rounded shadow-lg transition"
+        >
+          View My Work
+        </a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="max-w-4xl mx-auto px-4 py-16 bg-white">
+      <h2 class="text-3xl font-bold mb-4 text-center">About Me</h2>
+      <p class="text-center text-gray-700 mb-4">
+        I'm a creative web developer with experience in building modern,
+        responsive websites. I love turning ideas into beautiful, functional
+        digital experiences.
+      </p>
+      <div class="flex flex-col md:flex-row gap-8 mt-8">
+        <div
+          class="flex-1 bg-gray-100 p-6 rounded shadow hover:scale-105 transition-transform duration-300"
+        >
+          <h3 class="text-xl font-semibold mb-2">Skills</h3>
+          <ul class="list-disc list-inside text-gray-700">
+            <li>React, Remix.js</li>
+            <li>Spring Boot</li>
+            <li>C, C++, Python, Java, JS, TS</li>
+            <li>Git, Docker</li>
+          </ul>
+        </div>
+        <div
+          class="flex-1 bg-gray-100 p-6 rounded shadow hover:scale-105 transition-transform duration-300"
+        >
+          <h3 class="text-xl font-semibold mb-2">Experience</h3>
+          <ul class="list-disc list-inside">
+            <li class="font-semibold">Software Engineer</li>
+            <p class="pl-6"><a href="https://www.echo.win">echowin Inc</a></p>
+            <li class="font-semibold">Mathematics Tutor</li>
+            <p class="pl-6"><a href="https://clamphook.com">clamphook</a></p>
+          </ul>
+        </div>
+        <div
+          class="flex-1 bg-gray-100 p-6 rounded shadow hover:scale-105 transition-transform duration-300"
+        >
+          <h3 class="text-xl font-semibold mb-2">Education</h3>
+          <div class="flex gap-2 p-1">
+            <i class="fas mt-[2px] fa-graduation-cap"></i>
+            <p class="items-center">Computer Engineering</p>
+          </div>
+          <div class="flex gap-2 p-1">
+            <i class="fas mt-[2px] fa-university"></i>
+            <p class="items-center">
+              <a href="https://pcampus.edu.np/">IOE Pulchowk</a>,
+              <a href="https://tu.edu.np/">TU</a>
+            </p>
+          </div>
+          <div class="flex gap-2 p-1">
+            <i class="fas mt-[2px] fa-calendar"></i>
+            <p class="items-center">Nov/2019 - Apr/2024</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="max-w-5xl mx-auto px-4 py-16 bg-gray-50">
+      <h2 class="text-3xl font-bold mb-8 text-center">My Projects</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-between">
+        <!-- Project Card Example -->
+        <div
+          class="bg-white rounded shadow hover:shadow-lg transition-shadow duration-300 overflow-hidden"
+        >
+          <!-- <img
+            src="https://via.placeholder.com/400x200"
+            alt="Project 1"
+            class="w-full h-48 object-cover"
+          /> -->
+          <a href="https://github.com/Smart-Attendance-System-Minor-Project/backend-works.git">
+            <div class="p-4">
+              <h3 class="text-xl text-center font-semibold mb-2">
+                Well Attend <i class="fab fa-github"></i>
+              </h3>
+              <p class="text-gray-600 mb-4 text-center">
+                A digital attendance system used to record, monitor and analyze
+                students attendance record.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div
+          class="bg-white rounded shadow hover:shadow-lg transition-shadow duration-300 overflow-hidden"
+        >
+          <a href="https://github.com/Pratik333-droid/e-auction-api">
+            <div class="p-4">
+              <h3 class="text-xl text-center font-semibold mb-2">
+                e-auction <i class="fab fa-github"></i>
+              </h3>
+              <p class="text-gray-600 mb-4 text-center">
+                A backend for an application that allows conducting players auction online.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div
+          class="bg-white rounded shadow hover:shadow-lg transition-shadow duration-300 overflow-hidden"
+        >
+          <a href="https://github.com/Pratik333-droid/My-Uni">
+            <div class="p-4">
+              <h3 class="text-xl text-center font-semibold mb-2">
+                My-Uni <i class="fab fa-github"></i>
+              </h3>
+              <p class="text-gray-600 mb-4 text-center">
+                A simple web application to connect university and students.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <!-- Add more project cards as needed -->
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="max-w-4xl mx-auto px-4 py-16 bg-white">
+      <h2 class="text-3xl font-bold mb-8 text-center">Get in Touch</h2>
+      <form id="contactForm" class="max-w-xl mx-auto space-y-4">
+        <input
+          type="text"
+          placeholder="Your Name"
+          class="w-full p-3 border border-gray-300 rounded"
+          required
+        />
+        <input
+          type="email"
+          placeholder="Your Email"
+          class="w-full p-3 border border-gray-300 rounded"
+          required
+        />
+        <textarea
+          placeholder="Your Message"
+          class="w-full p-3 border border-gray-300 rounded h-32"
+          required
+        ></textarea>
+        <button
+          type="submit"
+          class="w-full bg-blue-500 text-white font-semibold py-3 px-6 rounded hover:bg-blue-600 transition"
+        >
+          Send Message
+        </button>
+      </form>
+      <div id="formResponse" class="mt-4 text-center text-green-600"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-200 p-4 text-center">
+      &copy; 2025 Pratik Dahal. All rights reserved.
+      <div>
+        <a href="https://www.linkedin.com/in/pratik-dahal-430aa21b2/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Pratik333-droid"><i class="fab fa-github"></i></a>
+      </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
